@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/streamlit/streamlit-example.git .
+RUN git clone https://github.com/Sebi1011/streamlit_fun_project/tree/main .
 
 RUN pip3 install -r requirements.txt
 
